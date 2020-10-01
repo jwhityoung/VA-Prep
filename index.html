@@ -24,7 +24,10 @@
   <body>
     <!-- Header -->
     <nav class="navbar navbar-custom">
-      <span class="navbar-text mx-auto"> Washer & Dryer </span>
+        <h2 class="navbar-text mx-auto"
+        aria-label="page header title">
+            Washer & Dryer
+        </h2>
     </nav>
 
     <!-- Image -->
@@ -44,6 +47,7 @@
     >
       Modal
     </button>
+    
     <!-- Modal-->
     <div
       class="modal fade"
@@ -91,28 +95,41 @@
 
     <!-- Buttons -->
     <div class="link-buttons">
-      <a
-        href="https://www.homedepot.com/b/Appliances-Washers-Dryers/N-5yc1vZc3ol"
-        target="_blank"
-        ><button type="button" class="btn btn-primary">Shop Now</button></a
-      >
-      <a href="https://ravenseye.io/" target="_blank"
-        ><button type="button" class="btn btn-primary">Learn More</button></a
-      >
+        <a href="https://www.homedepot.com/b/Appliances-Washers-Dryers/N-5yc1vZc3ol" target="_blank"><button
+                type="button" class="btn btn-primary" aria-label="Shop Now">Shop Now</button></a>
+        <a href="https://ravenseye.io/" target="_blank"><button type="button" class="btn btn-primary" aria-label="Learn More">Learn
+                More</button></a>
     </div>
 
     <!-- Paragraphs -->
-    <div class="container">
-      <div class="row">
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-6">
+            <ol aria-label="best washer dryer sets of 2020">
+                <h5 class="list-header">Best Washers & Dryers Matching Sets of 2020</h5>
+                <li>
+                  <p role="listitem">Top Pick: LG WM3900H & LG DLEX3900</p>
+                <li>
+                    <p role="listitem">Runner Up: Electrolux EFLS627U & Electrolux EFME627U</p>
+                </li>
+                <li><p role="listitem">Budget Pick: Maytag MVWC465HW & Maytag MEDC465HW</p></li>
+            </ol>
+        </div>
         <div class="col-md-6">
-          <ol>
-            <h5 class="list-header">
-              Best Washers & Dryers Matching Sets of 2020
-            </h5>
-            <li>Top Pick: LG WM3900H & LG DLEX3900</li>
-            <li>Runner Up: Electrolux EFLS627U & Electrolux EFME627U</li>
-            <li>Budget Pick: Maytag MVWC465HW & Maytag MEDC465HW</li>
-          </ol>
+            <section role="list">
+            <ol aria-label="nine things not to miss when choosing a washer and dryer">
+                <h5 class="list-header">9 Things Not To Miss When Choosing a Washer and Dryer </h5>
+                <li><p role="listitem">Steam & sanitize in washer</p></li>
+                <li><p role="listitem">Auto-Dipsnse</p></li>
+                <li><p role="listitem"> Automatic temperature control</p></li>
+                <li><p role="listitem">Rich wash cycles</p></li>
+                <li><p role="listitem">Internal water heater</p></li>
+                <li><p role="listitem">Built in sink</p></li>
+                <li><p role="listitem">Steam cycle for dryer</p></li>
+                <li><p role="listitem">Moisture sensors</p></li>
+                <li><p role="listitem">Dryer Settings</p></li>
+            </ol>
+        </section>
         </div>
         <div class="col-md-6">
           <ol>
